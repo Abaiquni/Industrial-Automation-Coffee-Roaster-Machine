@@ -4,11 +4,20 @@
 
 This repository will focus on electrical control system implementation for a 3kg cast iron coffee roaster. The system automates temperature monitoring and hysteresis blower speed control to achieve consistent roasting quality.
 
+<p align="center">
+  <img src="images/Preview_1.jpeg" alt="Preview Coffee Roaster Machine" width="300">
+  <br>
+  <em>Preview Coffee Roaster Machine</em>
+</p>
 
 
-![Temperature Controller](images/Hysteresis.png)
+The method being used in this project is hysteresis control, think of hysteresis control like a smart thermostat, but for cooling instead of heating.
 
-Think of hysteresis control like a smart thermostat, but for cooling instead of heating.
+<p align="center">
+  <img src="images/Hysteresis.png" alt="Hysteresis Control Illustration" width="300">
+  <br>
+  <em>Hysteresis Control Illustration</em>
+</p>
 
 The picture shows a heater that:
 - Turns ON when temperature is too low
@@ -113,6 +122,24 @@ Temperature Control (Maintain with hysteresis control)
 
 ## Documentation
 
+<p align="center">
+  <img src="images/Preview.jpeg" alt="Final Preview" width="400">
+  <br>
+  <em>Final Preview</em>
+</p>
+
+<p align="center">
+  <img src="images/WiringDiagram.png"" alt="Wiring Diagram" width="400">
+  <br>
+  <em>Wiring Diagram</em>
+</p>
+
+<p align="center">
+  <img src="images/Wiring.jpeg"" alt="Wiring Testing" width="400">
+  <br>
+  <em>Wiring Testing</em>
+</p>
+
 ### Included Files
 
 - **README.md** - This file, project overview
@@ -122,7 +149,7 @@ Temperature Control (Maintain with hysteresis control)
 
 ### Key Topics Covered
 
-- Control system architecture
+- Hysteresis control system
 - Electrical wiring diagrams
 - Component specifications
 - Installation procedures
